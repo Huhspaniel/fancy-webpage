@@ -54,12 +54,6 @@ nav > a {
 	z-index: 1;
 }
 
-@media only screen and (max-width: 700px) {
-	nav > a > h2 {
-		display: none;
-	}
-}
-
 nav > a:hover {
 	background-color: #a1eded;
 }
@@ -75,6 +69,12 @@ nav > a:active {
 nav img {
 	width: 28px;
 	margin: 0 10px;
+}
+
+@media only screen and (max-width: 700px) {
+	nav > a > h2 {
+		display: none;
+	}
 }
 
 .content {
